@@ -562,14 +562,34 @@ footer {
         }
     
         .logo {
-            width: 100px; /* Reduce the size of the logo for smaller screens */
-            margin-left: 0; /* Remove the large negative margin */
+            width: 100px; 
+            margin-left: 330px;
+            margin-top: -80px; 
         }
     
         .logo-text {
-            font-size: 24px; /* Adjust font size for smaller screens */
-            margin-left: 0; /* Center the text below the logo */
-            margin-top: 0px; /* Add some space above the text */
-            color: #333; /* Change text color for better contrast on small screens */
+            font-size: 24px;
+            margin-left: 0; 
+            margin-top: 0px;
+            color: #333;
+        }
+        /*-------search-------------------*/
+        .search-container {
+            width: 60%;
+            margin: 10px;
+            padding: 2px;
+            padding-left: 15px;
+            margin-top: -120px;
+            margin-left: 90px;
+            
+        }
+    
+        .search-container i {
+            display: none;
+        }
+    
+        #search {
+            width: 100%;
+            font-size: 14px;
         }
 }

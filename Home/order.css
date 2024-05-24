@@ -428,75 +428,84 @@ footer {
     
     /*----------------navigation-bar------------*/
         
-
-        header label{
-            display: intial;
-
-        }
-
-
-        header .navbar{
-            position: absolute;
-            left: 0; right: 0;
-            background: rgb(245, 199, 26);
-            border-top: 1px solid rgba(0,0,0,.1);
+    header{
+        padding: 20px;
         
-        }
+    }
 
-        header .navbar ul li{
-            width: 100%;
-            
-        }
+    header label{
+        display: intial;
 
-        header .navbar ul li ul{
-            position: relative;
-            width: 100%;
+    }
+
+
+    header .navbar{
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: #fff;
+        border-top: 1px solid rgba(0,0,0,.1);
+       
+    }
+
+    header .navbar ul li{
+        width: 100%;
         
-        }
+    }
 
-        header .navbar ul li a{
-            color: black;
-            text-align: center;
-            padding-left: 1px;
-            margin-bottom: 5px;
-        }
-        header .navbar ul li a:hover{
-            color:#f1f1f1;
-            text-shadow: none;
-
-        }
-
-        .search-container {
-            width: 80%;
-            margin: 10px auto;
-            padding: 5px;
-            margin-top: -25px;
-            border-radius: 8px;
-        }
-    
-        .search-container i {
-            margin-right: 5px;
-            font-size: 1rem;
-        }
-    
-        #search {
-            font-size: 14px;
-            width: 100%;
-        }
+    header .navbar ul li ul{
+        position: relative;
+        width: 100%;
+      
+    }
 
 
-        .logo-container {
-            flex-direction: column;
-          
-        }
-    
-        .logo {
-            display: none;
-        }
-    
-        .logo-text {
-            font-size: 20px;
-            color: black;
-            text-align: center;
-        }
+    header .navbar ul li a{
+        color: black;
+        text-align: center;
+        padding-left: 1px;
+        margin-bottom: 5px;
+    }
+    header .navbar ul li a:hover{
+        color:rgb(245, 199, 26);
+        text-shadow: none;
+
+    }
+    /*-------search-------------------*/
+    .search-container {
+        width: 60%;
+        margin: 10px;
+        padding: 2px;
+        padding-left: 15px;
+        margin-top: -120px;
+        margin-left: 90px;
+        
+    }
+
+    .search-container i {
+        display: none;
+    }
+
+    #search {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /*-------------logo---------------*/
+    .logo-container {
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo {
+        width: 100px; 
+        margin-left: 330px;
+        margin-top: -80px; 
+    }
+
+    .logo-text {
+        font-size: 24px; 
+        margin-left: 0; 
+        margin-top: 0px; 
+        color: #333; 
+    }
 }
